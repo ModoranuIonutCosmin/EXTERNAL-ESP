@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Assets">
+      <UniqueIdentifier>d9da06e1-b803-462f-b5d3-6971f591fb9a</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dds;dlg;fbx;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tga;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ICONS">
+      <UniqueIdentifier>{9a1bd6d6-ca70-461a-ac7f-b61345d4b638}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FONTS">
+      <UniqueIdentifier>{fd800d62-d307-4ca8-9065-89bd88ab8b45}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="StepTimer.h" />
+    <ClInclude Include="ESP.h" />
+    <ClInclude Include="Offsets.h" />
+    <ClInclude Include="ENTITY.h" />
+    <ClInclude Include="Helpers.h" />
+    <ClInclude Include="Memory.h" />
+    <ClInclude Include="Maths.h" />
+    <ClInclude Include="Window.h" />
+    <ClInclude Include="Defines.h" />
+    <ClInclude Include="CurrentGameState.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="ESP.cpp" />
+    <ClCompile Include="ENTITY.cpp" />
+    <ClCompile Include="Memory.cpp" />
+    <ClCompile Include="Window.cpp" />
+    <ClCompile Include="CurrentGameState.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="directx.ico">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="ICONS\Eye.png">
+      <Filter>ICONS</Filter>
+    </Image>
+    <Image Include="ICONS\Health.png">
+      <Filter>ICONS</Filter>
+    </Image>
+    <Image Include="ICONS\HP.png">
+      <Filter>ICONS</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="settings.manifest">
+      <Filter>Assets</Filter>
+    </Manifest>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="FONTS\lato.spritefont">
+      <Filter>FONTS</Filter>
+    </None>
+    <None Include="FONTS\lato24.spritefont">
+      <Filter>FONTS</Filter>
+    </None>
+  </ItemGroup>
+</Project>
